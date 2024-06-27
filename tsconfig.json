@@ -12,7 +12,7 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "paths": {
-      "@storybook-vue/nuxt": ["./packages/storybook-nuxt/src/index.ts"]
+      "@gre212/nuxt-storybook": ["./packages/storybook-nuxt/src/index.ts"]
 
     }
   },

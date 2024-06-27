@@ -151,7 +151,7 @@ async function addDevDependencies() {
     'storybook': sbVersion,
     '@types/node': '^18.17.5',
     '@storybook/vue3': sbVersion,
-    '@storybook-vue/nuxt': nuxtSbVersion,
+    '@gre212/nuxt-storybook': nuxtSbVersion,
     '@nuxtjs/storybook': nuxtSbModuleVersion,
     '@storybook/addon-links': sbVersion,
     '@storybook/builder-vite': sbVersion,
