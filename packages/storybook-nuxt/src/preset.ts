@@ -139,6 +139,15 @@ export const core: PresetProperty<'core', StorybookConfig> = async (config: any)
 export const previewAnnotations: StorybookConfig['previewAnnotations'] = async (entry = []) => {
   return [...entry, resolve(packageDir, 'preview')]
 }
+/**
+ *
+ * @param entry preview entries
+ * @returns preview entries with nuxt runtime
+ */
+export const staticDirs: StorybookConfig['staticDirs'] = async (entry = []) => {
+  console.log("entry", entry);
+  return [...entry]
+}
 
 export const viteFinal: StorybookConfig['viteFinal'] = async (
   config: Record<string, any>,

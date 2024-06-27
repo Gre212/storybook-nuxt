@@ -7,7 +7,7 @@ import type {
 declare let STORYBOOK_VUE_GLOBAL_PLUGINS: string[];
 declare let STORYBOOK_VUE_GLOBAL_MIXINS: string[];
 
-type FrameworkName = '@storybook-vue/nuxt';
+type FrameworkName = '@gre212/storybook-nuxt';
 type BuilderName = '@storybook/builder-vite';
 
 export type FrameworkOptions = NuxtOptions & {
@@ -22,6 +22,7 @@ type StorybookConfigFramework = {
   stories?: StorybookConfigBase['stories'];
   addons?: StorybookConfigBase['addons'];
   docs?: StorybookConfigBase['docs'];
+  staticDirs?: StorybookConfigBase['staticDirs'];
 };
 /**
  * The interface for Storybook configuration in `main.ts` files.
